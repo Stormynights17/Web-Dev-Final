@@ -1,0 +1,39 @@
+div {
+    margin: 10px;
+    
+    padding: 15px;
+    border: 1px solid black;
+}
+
+a {
+    color: white;
+}
+a:active {
+    color: azure;
+}
+a:hover {
+    color: aqua;
+}
+
+#mainWrapper {
+    width: 70%;
+    
+    margin-top: 0;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: darkslateblue;
+    color: white;
+    
+    text-align: center;
+}
+
+#logoutBox {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
