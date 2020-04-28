@@ -15,3 +15,9 @@ Project ideas:
 -Blog / Social media site
   easy to add many different functionalities and pages
   could have a game built in, like facebook games
+
+4/28
+Began work on project: chose to do the "escape room"-inspired game
+  Will have levels where user must perform certain functions in order to move on to the next page
+Created login functions and checks
+Created a homepage and basic structure for level 1 page
