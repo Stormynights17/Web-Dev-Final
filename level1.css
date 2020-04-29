@@ -1,0 +1,55 @@
+/* Code for float left, clear from CSS Box Model and Float lectures*/
+
+.sideBySide {
+    margin: 0;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    
+    margin: 0;
+    
+    display: inline-block;
+}
+
+.rainbow {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    
+    color: darkslateblue;
+    
+    background-color: lightgray;
+    
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gameBox {
+    padding: 0;
+}
+
+#colorBox {
+    width: 200px;
+/*    float: left;*/
+}
+
+#redC {
+    background-color: red;
+}
+#orangeC {
+    background-color: orange;
+}
+#yellowC {
+    background-color: yellow;
+}
+#greenC {
+    background-color: green;
+}
+#blueC {
+    background-color: blue;
+}
+#violetC {
+    background-color: rebeccapurple;
+}
