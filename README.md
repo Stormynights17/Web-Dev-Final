@@ -21,3 +21,10 @@ Began work on project: chose to do the "escape room"-inspired game
   Will have levels where user must perform certain functions in order to move on to the next page
 Created login functions and checks
 Created a homepage and basic structure for level 1 page
+
+4/29
+Began and finished work on Level 1: rainbow drag-and-drop
+  Created colored draggable boxes using JQuery UI
+  Created gray droppable boxes using JQuery UI
+  When colored box is dropped on gray box, JQuery checks if colored in in correct position
+Once all colored boxes are in correct position, button for Level 2 pops up
