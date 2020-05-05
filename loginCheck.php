@@ -33,13 +33,13 @@
 			exit;
 		} else {
 			$error = 'Error: Incorrect username or password';
-			require "login.html";
+			require "login.php";
 		}		
 	}
 	
 	function login_form() {
 		$username = "";
 		$error = "";
-		require "login.html";
+		require "login.php";
 	}
 ?>

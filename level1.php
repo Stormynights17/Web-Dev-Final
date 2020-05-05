@@ -55,7 +55,7 @@
             function checkColors() {
                 if (redB && oraB && yelB && greB && bluB && vioB) {
                     $("#message").html("All are correct");
-                    $("#nextBtn").show();
+                    $("#nextLevel").show();
                 }
             }
             
@@ -123,12 +123,16 @@
             });
             
         </script>
+        
     </head>
     <body>
         <div id="mainWrapper">
             <h1>Level 1</h1>
             
             <p>Fill in the rainbow: From red to violet</p>
+            
+            <hr>
+            
             <div id="gameBox" class="game">
                 <div id="colorBox" class="sideBySide">
                     <div id="redC" class="color"></div>
@@ -150,7 +154,11 @@
             
             <p id="message"></p>
             
-            <button id="nextBtn" hidden>Next Level (2)</button>
+<!--            <button id="nextBtn" hidden>Next Level (2)</button>-->
+            
+            <div hidden id="nextLevel">
+                <a href="level2.php">Next Level (2)</a>
+            </div>
             
             <br>
             <div id="logoutBox">
@@ -158,8 +166,6 @@
                 <br>
                 <a href="logout.php">Logout</a>
             </div>
-            </div>
-            
         </div>
     </body>
 </html>

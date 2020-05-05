@@ -15,6 +15,12 @@ a:hover {
     color: aqua;
 }
 
+/* How to style hr from : https://www.w3schools.com/howto/howto_css_style_hr.asp */
+hr {
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+}
+
 #mainWrapper {
     width: 70%;
     
@@ -37,3 +43,12 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+#nextLevel {
+    width: 100px;
+    
+    background-color: green;
+    
+    margin-left: auto;
+    margin-right: auto;
+} 
