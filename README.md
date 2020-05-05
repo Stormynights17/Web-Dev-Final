@@ -28,3 +28,10 @@ Began and finished work on Level 1: rainbow drag-and-drop
   Created gray droppable boxes using JQuery UI
   When colored box is dropped on gray box, JQuery checks if colored in in correct position
 Once all colored boxes are in correct position, button for Level 2 pops up
+
+5/4
+Began and finished work on Level 2: riddles game
+  Created form with riddles and boxes for answers
+  Form is checked on front end to make sure user cannot submit with blank form
+  Form is checked on back end with PHP to see if user input/answers is correct
+When form is submitted with correct inputs/answers, page moves to Level 3 page
