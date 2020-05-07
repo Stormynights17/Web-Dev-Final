@@ -35,3 +35,16 @@ Began and finished work on Level 2: riddles game
   Form is checked on front end to make sure user cannot submit with blank form
   Form is checked on back end with PHP to see if user input/answers is correct
 When form is submitted with correct inputs/answers, page moves to Level 3 page
+
+5/7
+Fixed bug in logout function
+Movement between level now uses a single PHP file that controls which level is "next"
+  Level 1 accesses this PHP file through an AJAX POST request
+  Level 2 accesses this PHP file through a SESSION variable
+"Continue game" button functionality
+  As levels are completed, a cookie is set to indicate the last completed level
+  When continue game is clicked (on homepage), it gets the cookie and sends user to the correct level
+To do:
+Multiple photos on a page
+Youtube/video embedded in page
+Public content (about page)
