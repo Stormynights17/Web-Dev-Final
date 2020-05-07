@@ -22,14 +22,42 @@
         
         <link rel="stylesheet" type="text/css" href="pages.css">
         
+        <style>
+            /* Box shadows created using: 
+            https://www.cssmatic.com/box-shadow */
+            .box {
+                width: 120px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #newGameBox {
+                background-color: deepskyblue;
+                box-shadow: 7px 7px 7px 0px rgba(133,164,245,1);
+            }
+            #continueBox {
+                background-color: hotpink;
+                box-shadow: 7px 7px 7px 0px rgba(230,135,245,1);
+            }
+            
+            .black {
+                color: black;
+            }
+            
+        </style>
+        
     </head>
     <body>
         <div id="mainWrapper">
-            <h1>Homepage</h1>
+            <h1>Welcome to the Virtual Escape Room</h1>
+            <h3>There are 3 levels with different puzzles that YOU must complete to ESCAPE</h3>
             
-            <a href="">Continue game</a>
-            <br>
-            <a href="level1.php">Start new game (Level 1)</a>
+            <div id="continueBox" class="box">
+                <a class="black" href="continue.php">Continue game</a>
+            </div>
+            <p>OR</p>
+            <div id="newGameBox" class="box">
+                <a class="black" href="level1.php">Start new game (Level 1)</a>
+            </div>
             <br>
             <br>
             <div id="logoutBox">

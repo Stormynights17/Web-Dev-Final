@@ -28,11 +28,14 @@
 
 #gameBox {
     padding: 0;
+    border: none;
 }
 
 #colorBox {
     width: 200px;
-/*    float: left;*/
+}
+#rainbowBox {
+    border: none;
 }
 
 #redC {

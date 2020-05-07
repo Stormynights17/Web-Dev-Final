@@ -12,6 +12,11 @@
 		header("Location: login.html");
 		exit;
 	}
+    else {
+        //If the cookie is there
+        //Destroy the levels cookie for "continue" button
+        setcookie('levels', '', 1);
+    }
 ?>
 
 <!DOCTYPE html>
@@ -120,6 +125,17 @@
                         checkColors();
                     }
                 });
+                
+                $("#nextBtn").click(function() {
+                    //Post function code taken from ajax folder from User Authentication lecture
+                    $.post('nextLevel.php', 
+                    {
+                        level: 'level1'
+                    }, function(data) {
+                        //Code for redirect taken from: https://www.aspsnippets.com/Articles/Redirect-to-new-page-after-jQuery-AJAX-call-is-successful-completed.aspx
+                        window.location = data;
+                    });
+                });
             });
             
         </script>
@@ -157,7 +173,8 @@
 <!--            <button id="nextBtn" hidden>Next Level (2)</button>-->
             
             <div hidden id="nextLevel">
-                <a href="level2.php">Next Level (2)</a>
+<!--                <a href="level2.php">Next Level (2)</a>-->
+                <button id="nextBtn" type="button">Next Level (2)</button>
             </div>
             
             <br>
